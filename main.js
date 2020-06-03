@@ -15,8 +15,11 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
+const numToStr = num => {
+  return num.toString();
+}
 
-
+console.log(typeof numToStr(45));
 
 // Write a JavaScript program to convert a string to the number.
 
